@@ -1,0 +1,91 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="id" lang="id">
+
+<head>
+    <link rel="stylesheet" href="style.css" />
+    <meta http-equiv="Content-Type" content="application/xhtml+xml; charset=UTF-8" />
+    <title>Judul</title>
+
+</head>
+
+<body>
+    <div id="parent_id">
+        <h1>Reservation Hotel Room</h1>
+
+        <fieldset>
+            <legend id="legend_personal_date">
+                Personal Date
+            </legend>
+            <ol>
+                <li><label for=" name">Name</label></li>
+                <input type="text" id="name" name="name"></input>
+                <li><label for="gender">Gender</label></li>
+                <input type="text" id="gender" name="gender"></input>
+                <li><label for="email">Email Address</label></li>
+                <input type="text" id="email" name="email"></input>
+                <li><label for="telp">Telp Number</label></li>
+                <input type="text" id="telp" name="telp"></input>
+            </ol>
+        </fieldset>
+
+        <div id="reservation_room_div">
+            <div>
+                <p id="title_reservation_room">Reservation Room Form</p>
+                <ol>
+                    <li><label for="reservation_name">Reservation Name</label></li>
+                    <input type="text" id="reservation_name" name="reservation_name"></input>
+                    <li><label for="booking_date">Booking Date</label></li>
+                    <input type="text" id="boo cking_date" name="booking_date"></input>
+
+                    <li>Room type</li>
+                    <select name="bedtype">
+                        <option>Luxury</option>
+                        <option>Deluxe</option>
+                        <option>Standard</option>
+                    </select>
+
+                    <li>Bed Type</li>
+                    <select name="bedtype">
+                        <option>Single Bed</option>
+                        <option>Double Bed</option>
+                        <option>King size</option>
+                    </select>
+                    <li>
+                        <label>5. Breakfast</label><br />
+                        <input type="radio" id="with" name="breakfast" value="with" checked="checked" />
+                        <label for="with">With Breakfast</label>
+
+                        <input type="radio" id="without" name="breakfast" value="without" />
+                        <label for="without">Without Breakfast</label>
+                    </li>
+                </ol>
+            </div>
+        </div>
+
+
+        <fieldset>
+            <legend id="legend_payment_id">
+                Payment
+            </legend>
+            <ol>
+                <li><label for="checkin">Chek in date</label></li>
+                <input type="text" id="checkin" name="checkin"></input>
+                <li><label for="checkout">Chek out date</label></li>
+                <input type="text" id="checkout" name="checkout"></input>
+                <li>Payment Method</li>
+                <select name="payment">
+                    <option>Cash</option>
+                    <option>Bank Transfer</option>
+                    <option>Qris</option>
+                </select>
+            </ol>
+        </fieldset>
+        <div id="submit_button">
+            <p><input type="submit" id="simpan" name="simpan">submit</input></p>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
